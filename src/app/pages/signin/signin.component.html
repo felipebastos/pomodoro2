@@ -1,0 +1,9 @@
+<ol>
+    @for(user of listaUsuarios; track user.username){
+    <li><a [routerLink]="['/profile', user.id]" routerLinkActive="active">{{user.username}}</a></li>
+    }
+</ol>
+
+username: <input type="text" [(ngModel)]="credencial.username">
+senha: <input type="password" [(ngModel)]="credencial.password">
+<button (click)="entrar()">Login</button>

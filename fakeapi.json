@@ -1,0 +1,45 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "username": "juanito",
+      "nome": "Juan",
+      "sobrenome": "Perez",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "username": "maricota",
+      "nome": "Maria",
+      "sobrenome": "Gomez",
+      "password": "234"
+    },
+    {
+      "id": 3,
+      "username": "plinio",
+      "nome": "Carlos",
+      "sobrenome": "Lopez",
+      "password": "345"
+    }
+  ],
+  "mensagens": [
+    {
+      "id": 1,
+      "texto": "Hola",
+      "usuario_id": 1,
+      "remetente": 2
+    },
+    {
+      "id": 2,
+      "texto": "Hola",
+      "usuario_id": 2,
+      "remetente": 3
+    },
+    {
+      "id": 3,
+      "texto": "Hola",
+      "usuario_id": 3,
+      "remetente": 1
+    }
+  ]
+}
